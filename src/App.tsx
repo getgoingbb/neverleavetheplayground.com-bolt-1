@@ -310,11 +310,11 @@ function HomePage() {
                 <span className="bg-yellow-400 text-gray-900 px-3 py-1 rounded-full text-sm font-bold">80% OFF</span>
               </div>
               <a 
-                href="https://playgrounds.neverleavetheplayground.com/pricing" 
+                href="https://playgrounds.neverleavetheplayground.com" 
                 target="_blank"
                 rel="noopener noreferrer"
                 className="inline-flex items-center px-8 py-3 bg-white text-green-600 font-bold rounded-lg hover:bg-gray-100 transition-colors shadow-lg"
-                aria-label="Subscribe to Never Leave The Playground lifetime access for $9.99"
+                aria-label="Subscribe to Never Leave The Playground lifetime access special offer"
               >
                 🚀 Get Lifetime Access Now - Save $40!
               </a>
