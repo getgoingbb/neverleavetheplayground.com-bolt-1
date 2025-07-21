@@ -1,0 +1,290 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <script async src="https://www.googletagmanager.com/gtag/js?id=GT-P3NCVWX"></script>
+    <script>
+      window.dataLayer = window.dataLayer || [];
+      function gtag(){dataLayer.push(arguments);}
+      gtag('js', new Date());
+      gtag('config', 'GT-P3NCVWX');
+    </script>
+    <title>Public Videos - Never Leave The Playground</title>
+    <meta name="description" content="Watch inspiring and educational public videos from Stephen Jepson, showcasing his unique approach to health, longevity, and playful movement.">
+    <meta name="keywords" content="Stephen Jepson videos, play videos, longevity videos, health videos, brain training, physical fitness, free videos">
+    <link rel="canonical" href="https://neverleavetheplayground.com/public-videos/">
+    <style>
+        body {
+            font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, sans-serif;
+            line-height: 1.6;
+            margin: 0;
+            padding: 20px;
+            background: linear-gradient(135deg, #667eea 0%, #764ba2 100%);
+            color: #333;
+            min-height: 100vh;
+        }
+        .container {
+            max-width: 1000px;
+            margin: 0 auto;
+            background: white;
+            padding: 40px;
+            border-radius: 15px;
+            box-shadow: 0 20px 40px rgba(0,0,0,0.1);
+        }
+        .header {
+            background: white;
+            box-shadow: 0 2px 4px rgba(0,0,0,0.1);
+            position: sticky;
+            top: 0;
+            z-index: 50;
+            margin: -20px -20px 20px -20px;
+            border-radius: 15px 15px 0 0;
+        }
+        .nav-container {
+            max-width: 1200px;
+            margin: 0 auto;
+            padding: 0 20px;
+            display: flex;
+            justify-content: space-between;
+            align-items: center;
+            min-height: 70px;
+        }
+        .logo-section {
+            display: flex;
+            align-items: center;
+        }
+        .logo-section img {
+            height: 48px;
+            width: auto;
+            margin-right: 15px;
+        }
+        .logo-text {
+            font-size: 1.25rem;
+            font-weight: bold;
+            color: #1f2937;
+        }
+        .logo-highlight {
+            color: #2563eb;
+        }
+        .nav-menu {
+            display: none;
+            list-style: none;
+            margin: 0;
+            padding: 0;
+            gap: 30px;
+        }
+        .nav-menu.active {
+            display: flex;
+            flex-direction: column;
+            position: absolute;
+            top: 100%;
+            left: 0;
+            right: 0;
+            background: white;
+            box-shadow: 0 4px 6px rgba(0,0,0,0.1);
+            padding: 20px;
+        }
+        .nav-menu a {
+            color: #4b5563;
+            text-decoration: none;
+            font-weight: 500;
+            padding: 10px 0;
+            transition: color 0.3s;
+        }
+        .nav-menu a:hover, .nav-menu a.current {
+            color: #2563eb;
+        }
+        .mobile-toggle {
+            display: block;
+            background: none;
+            border: none;
+            font-size: 1.5rem;
+            cursor: pointer;
+            color: #4b5563;
+        }
+        @media (min-width: 1024px) {
+            .nav-menu {
+                display: flex;
+                flex-direction: row;
+                position: static;
+                box-shadow: none;
+                padding: 0;
+            }
+            .nav-menu a {
+                padding: 0;
+            }
+            .mobile-toggle {
+                display: none;
+            }
+        }
+        h1 {
+            color: #2563eb;
+            text-align: center;
+            margin-bottom: 30px;
+            font-size: 2.5rem;
+        }
+        h2 {
+            color: #1e40af;
+            border-bottom: 2px solid #3b82f6;
+            padding-bottom: 10px;
+        }
+        .video-grid {
+            display: grid;
+            grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
+            gap: 30px;
+            margin: 30px 0;
+        }
+        .video-card {
+            background: #f8fafc;
+            padding: 20px;
+            border-radius: 10px;
+            box-shadow: 0 4px 6px rgba(0,0,0,0.1);
+        }
+        .video-responsive {
+            position: relative;
+            padding-bottom: 56.25%;
+            height: 0;
+            overflow: hidden;
+            border-radius: 8px;
+        }
+        .video-responsive iframe {
+            position: absolute;
+            top: 0;
+            left: 0;
+            width: 100%;
+            height: 100%;
+        }
+        .back-link {
+            display: inline-block;
+            margin-top: 30px;
+            color: #2563eb;
+            text-decoration: none;
+        }
+        .back-link:hover {
+            text-decoration: underline;
+        }
+        .cta-button {
+            display: inline-block;
+            background: #2563eb;
+            color: white;
+            padding: 15px 30px;
+            text-decoration: none;
+            border-radius: 8px;
+            font-weight: bold;
+            margin: 20px 10px 20px 0;
+            transition: background 0.3s;
+        }
+        .cta-button:hover {
+            background: #1d4ed8;
+        }
+    </style>
+</head>
+<body>
+    <!-- Header with Navigation -->
+    <header class="header">
+        <div class="nav-container">
+            <div class="logo-section">
+                <img src="https://shop.neverleavetheplayground.com/lovable-uploads/6899d407-7792-43de-a96f-7a440c293bf1.png" alt="Never Leave The Playground Logo">
+                <div class="logo-text">
+                    <span class="logo-highlight">Never Leave</span> The Playground
+                </div>
+            </div>
+            
+            <nav>
+                <ul class="nav-menu" id="navMenu">
+                    <li><a href="/">Home</a></li>
+                    <li><a href="/about-me/">About Me</a></li>
+                    <li><a href="/keynote-speaker/">Keynote Speaker</a></li>
+                    <li><a href="/activities/">Activities</a></li>
+                    <li><a href="/public-videos/" class="current">Public Videos</a></li>
+                    <li><a href="/a-health-revolution/">A Health Revolution</a></li>
+                    <li><a href="/slides/">Slides</a></li>
+                    <li><a href="/testimonials-media/">Testimonials & Media</a></li>
+                    <li><a href="https://never-leave-the-playground.mailchimpsites.com/" target="_blank" rel="noopener noreferrer">Contact Us</a></li>
+                </ul>
+                <button class="mobile-toggle" onclick="toggleMenu()" aria-label="Toggle menu">☰</button>
+            </nav>
+        </div>
+    </header>
+
+    <div class="container">
+        <h1>Inspiring Videos from Never Leave The Playground</h1>
+        
+        <p style="text-align: center; margin-bottom: 30px;">Explore Stephen Jepson's public videos showcasing his unique methods for health, longevity, and the joy of play.</p>
+
+        <div class="video-grid">
+            <div class="video-card">
+                <h3>Growing Bolder Interview (4M+ Views)</h3>
+                <div class="video-responsive">
+                    <iframe src="https://www.youtube.com/embed/ycJwrwrYgGM" title="Stephen Jepson's Philosophy in Action" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
+                </div>
+                <p>The viral interview that has inspired millions worldwide. Featured on PBS and NPR.</p>
+            </div>
+
+            <div class="video-card">
+                <h3>Play Your Way to a Healthier Life</h3>
+                <div class="video-responsive">
+                    <iframe src="https://www.youtube.com/embed/M9vm5_-lE3U" title="Play Your Way to a Healthier Life" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
+                </div>
+                <p>Stephen demonstrates how play can lead to a healthier, longer life.</p>
+            </div>
+
+            <div class="video-card">
+                <h3>Stephen Jepson's Philosophy</h3>
+                <div class="video-responsive">
+                    <iframe src="https://www.youtube.com/embed/Y2eFlskZ0vg" title="Stephen Jepson's Philosophy" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
+                </div>
+                <p>Learn about Stephen's unique philosophy on health, wellness, and the power of play.</p>
+            </div>
+
+            <div class="video-card">
+                <h3>The 5-in-1 Video</h3>
+                <div class="video-responsive">
+                    <iframe src="https://www.youtube.com/embed/ll6aoSmWzKY" title="The 5-in-1 Video" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
+                </div>
+                <p>A comprehensive video combining five essential elements of Stephen's approach.</p>
+                <div style="background: #f0f9ff; padding: 15px; border-radius: 8px; margin-top: 15px; border-left: 4px solid #2563eb;">
+                    <p style="margin: 0; font-size: 0.9rem; color: #1e40af;"><strong>💎 Want the Complete Collection?</strong></p>
+                    <p style="margin: 5px 0 10px 0; font-size: 0.85rem; color: #4b5563;">Get Stephen's full video library with detailed instructions, extended content, and exclusive master classes.</p>
+                    <a href="https://shop.neverleavetheplayground.com/" target="_blank" rel="noopener noreferrer" style="display: inline-block; background: #2563eb; color: white; padding: 8px 16px; text-decoration: none; border-radius: 6px; font-size: 0.85rem; font-weight: 600; transition: background 0.3s;">
+                        🛒 Shop Complete Video Collection
+                    </a>
+                </div>
+            </div>
+
+            <div class="video-card">
+                <h3>Activities Showcase</h3>
+                <div class="video-responsive">
+                    <iframe src="https://www.youtube.com/embed/WhYhofOs3KU" title="Activities Showcase" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
+                </div>
+                <p>A showcase of various activities that promote health and longevity through play.</p>
+            </div>
+
+            <div class="video-card">
+                <h3>Extended Health Benefits</h3>
+                <div class="video-responsive">
+                    <iframe src="https://www.youtube.com/embed/qTvUThjpvus" title="Extended Health Benefits" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
+                </div>
+                <p>An extended exploration of how play can transform your health and extend your life.</p>
+            </div>
+        </div>
+
+        <div style="text-align: center; margin-top: 40px;">
+            <p>For more in-depth video content and master classes:</p>
+            <a href="https://shop.neverleavetheplayground.com/" class="cta-button" target="_blank">Visit Our Video Shop</a>
+            <a href="/keynote-speaker/" class="cta-button">Book Stephen to Speak</a>
+        </div>
+        
+        <a href="/" class="back-link">← Back to Home</a>
+    </div>
+
+    <script>
+        function toggleMenu() {
+            const navMenu = document.getElementById('navMenu');
+            navMenu.classList.toggle('active');
+        }
+    </script>
+    <script id="mcjs">!function(c,h,i,m,p){m=c.createElement(h),p=c.getElementsByTagName(h)[0],m.async=1,m.src=i,p.parentNode.insertBefore(m,p)}(document,"script","https://chimpstatic.com/mcjs-connected/js/users/03e68a86c7ea68863e1fb316c/3f7486b8d9732656b5d31afb8.js");</script>
+</body>
+</html>

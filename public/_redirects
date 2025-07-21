@@ -1,0 +1,344 @@
+# Never Leave The Playground - Redirects Configuration
+# This file handles URL redirects to consolidate SEO value and fix crawl issues
+
+# ===== PROTOCOL & WWW CANONICALIZATION =====
+# Force HTTPS and remove www
+http://neverleavetheplayground.com/* https://neverleavetheplayground.com/:splat 301!
+http://www.neverleavetheplayground.com/* https://neverleavetheplayground.com/:splat 301!
+https://www.neverleavetheplayground.com/* https://neverleavetheplayground.com/:splat 301!
+
+# ===== NEW DISCOVERED NOT INDEXED FIXES =====
+# EN subdomain blog content
+https://en.neverleavetheplayground.com/blog/chinese-grandma-92-wows-public-by-completing-200-push-ups-100-sit-ups-daily /a-health-revolution/ 301!
+https://en.neverleavetheplayground.com/blog/* /a-health-revolution/ 301!
+
+# EN subdomain PDF patterns
+https://en.neverleavetheplayground.com/full-pdf/about-the-keynote-speaker-full /keynote-speaker/ 301!
+https://en.neverleavetheplayground.com/full-pdf/* /keynote-speaker/ 301!
+https://en.neverleavetheplayground.com/pdf/activities /activities/ 301!
+https://en.neverleavetheplayground.com/pdf/chinese-grandma-92-wows-public-by-completing-200-push-ups-100-sit-ups-daily /a-health-revolution/ 301!
+https://en.neverleavetheplayground.com/pdf/submit-a-review /testimonials-media/ 301!
+https://en.neverleavetheplayground.com/pdf/* /keynote-speaker/ 301!
+
+# EN subdomain slides patterns
+https://en.neverleavetheplayground.com/slides/a-38-year-old-woman-who-had-gained-weight-from-traveling-lost-50-pounds-in-a-year-she-shared-5-easy-ways-she-did-it /slides/ 301!
+https://en.neverleavetheplayground.com/slides/balance-exercises-for-seniors-healthlinehealthline /slides/ 301!
+https://en.neverleavetheplayground.com/slides/chinese-grandma-92-wows-public-by-completing-200-push-ups-100-sit-ups-daily /slides/ 301!
+https://en.neverleavetheplayground.com/slides/submit-a-review /testimonials-media/ 301!
+https://en.neverleavetheplayground.com/slides/* /slides/ 301!
+
+# EN subdomain videos
+https://en.neverleavetheplayground.com/our-videos /public-videos/ 301!
+
+# ===== BLOG SUBDOMAIN REDIRECTS =====
+# All blog content to main site pages
+https://blog.neverleavetheplayground.com/all-the-room-is-at-the-top-the-view-the-brain-game-video-sale/ /public-videos/ 301!
+https://blog.neverleavetheplayground.com/stephen-jepsons-mission-statement/ /about-me/ 301!
+https://blog.neverleavetheplayground.com/2015-balloon-festival-albuquerque-new-mexico-combined-with-emergency-surgery/ /about-me/ 301!
+https://blog.neverleavetheplayground.com/the-wellness-couch-health-and-fitness-podcasts-interview-with-stephen-jepson/ /testimonials-media/ 301!
+https://blog.neverleavetheplayground.com/foster-joy-and-intellectual-challenge-and-individuality-and-curiosity/ /a-health-revolution/ 301!
+https://blog.neverleavetheplayground.com/what-is-going-to-happen/ /a-health-revolution/ 301!
+https://blog.neverleavetheplayground.com/hello-from-stephen/ /about-me/ 301!
+https://blog.neverleavetheplayground.com/speaking-testimonials/ /testimonials-media/ 301!
+https://blog.neverleavetheplayground.com/learning-to-do-complicated-physical-things/ /activities/ 301!
+https://blog.neverleavetheplayground.com/computer-games-to-fix-various-childhood-maladies-i-dont-think-so-play-as-if-your-life-depends-on-it/ /a-health-revolution/ 301!
+https://blog.neverleavetheplayground.com/diagnosis-and-treatment-of-parkinsons-disease/ /testimonials-media/ 301!
+https://blog.neverleavetheplayground.com/better-memory-better-health-a-positive-orientation-to-life/ /a-health-revolution/ 301!
+https://blog.neverleavetheplayground.com/keeping-the-brain-and-body-functioning-well/ /a-health-revolution/ 301!
+https://blog.neverleavetheplayground.com/the-playground-of-our-youth-was-a-training-ground/ /activities/ 301!
+https://blog.neverleavetheplayground.com/what-can-i-do-to-have-more-fun-in-life/ /activities/ 301!
+https://blog.neverleavetheplayground.com/spend-your-life-on-the-playground/ /a-health-revolution/ 301!
+https://blog.neverleavetheplayground.com/it-was-a-beautiful-summer-day-in-sioux-city/ /about-me/ 301!
+https://blog.neverleavetheplayground.com/if-you-want-to-learn-something-physical-learn-to-play/ /activities/ 301!
+https://blog.neverleavetheplayground.com/another-fun-way-to-grow-brain-cells/ /activities/ 301!
+https://blog.neverleavetheplayground.com/burman-university-physical-educationcentre/ /keynote-speaker/ 301!
+https://blog.neverleavetheplayground.com/where-is-stephen-jepson-juggling/ /activities/ 301!
+https://blog.neverleavetheplayground.com/what-can-i-do-to-be-happier/ /a-health-revolution/ 301!
+https://blog.neverleavetheplayground.com/movement-mornings-interview/ /testimonials-media/ 301!
+https://blog.neverleavetheplayground.com/make-being-healthy-one-of-your-hobbies/ /a-health-revolution/ 301!
+https://blog.neverleavetheplayground.com/stephen-jepsons-test-for-old-age/ /activities/ 301!
+https://blog.neverleavetheplayground.com/better-coordination-left-and-right-hand-juggling-pool-balls/ /activities/ 301!
+https://blog.neverleavetheplayground.com/balance-stability-coordination-memory-mood-creativity-and/ /activities/ 301!
+https://blog.neverleavetheplayground.com/sedentary-behavior-inactive-lifestyle-has-great-potential-for-creating-a-long-slow-sick-slide-to-early-death/ /a-health-revolution/ 301!
+https://blog.neverleavetheplayground.com/the-lean-berets-interview/ /testimonials-media/ 301!
+https://blog.neverleavetheplayground.com/balancing-with-balls-on-a-bongo-board-learn-to-balance-balls-on-a-bongo-board-and-improve-your-memory/ /activities/ 301!
+https://blog.neverleavetheplayground.com/exploring-lane-kiffins-audio-whats-behind-the-headlines/ /public-videos/ 301!
+https://blog.neverleavetheplayground.com/i-recently-wrote-my-first-press-release/ /about-me/ 301!
+https://blog.neverleavetheplayground.com/surf-expo-orlando-2015-2/ /about-me/ 301!
+https://blog.neverleavetheplayground.com/make-being-healthy-one-of-your-hobbies-healthy-hobbies/ /a-health-revolution/ 301!
+https://blog.neverleavetheplayground.com/flash-for-immediate-release-flash-reverse-the-aging-process-a-habit-of-a-healthy-lifestyle/ /a-health-revolution/ 301!
+https://blog.neverleavetheplayground.com/magnificent-pattern-brain-neuroplasticity-exercises/ /activities/ 301!
+https://blog.neverleavetheplayground.com/enriching-the-brain-and-body-with-this-fun-step-over-video/ /activities/ 301!
+
+# Blog pagination and categories
+https://blog.neverleavetheplayground.com/page/* /public-videos/ 301!
+https://blog.neverleavetheplayground.com/authors/* /about-me/ 301!
+https://blog.neverleavetheplayground.com/tags/* /activities/ 301!
+https://blog.neverleavetheplayground.com/stephen-jepson-from-never-leave-the-playground-having-a-little-fun-at-75-years-of-age// /about-me/ 301!
+
+# Catch-all for blog subdomain
+https://blog.neverleavetheplayground.com/* /public-videos/ 301!
+
+# ===== KEYNOTE SPEAKER SUBDOMAIN REDIRECTS =====
+# All keynote speaker subdomain content to main keynote page
+https://keynote-speaker.neverleavetheplayground.com/how-the-motivational-speakers-agency-helps-manage-stress/ /keynote-speaker/ 301!
+https://keynote-speaker.neverleavetheplayground.com/enhance-employee-focus-with-women-motivational-speakers/ /keynote-speaker/ 301!
+https://keynote-speaker.neverleavetheplayground.com/encouraging-flexibility-with-religious-motivational-speakers/ /keynote-speaker/ 301!
+https://keynote-speaker.neverleavetheplayground.com/building-communication-skills-with-top-celebrity-speakers/ /keynote-speaker/ 301!
+https://keynote-speaker.neverleavetheplayground.com/using-top-sports-speakers-to-nurture-creativity/ /keynote-speaker/ 301!
+https://keynote-speaker.neverleavetheplayground.com/using-diversity-and-inclusion-keynote-speakers-to-develop-emotional-intelligence/ /keynote-speaker/ 301!
+https://keynote-speaker.neverleavetheplayground.com/fostering-problem-solving-skills-with-interesting-speakers/ /keynote-speaker/ 301!
+https://keynote-speaker.neverleavetheplayground.com/practical-ways-to-improve-attitude-through-motivational-speakers-near-me/ /keynote-speaker/ 301!
+https://keynote-speaker.neverleavetheplayground.com/how-famous-business-motivational-speakers-strengthens-professional-relationships/ /keynote-speaker/ 301!
+https://keynote-speaker.neverleavetheplayground.com/promoting-clarity-with-looking-for-guest-speakers-2/ /keynote-speaker/ 301!
+https://keynote-speaker.neverleavetheplayground.com/fostering-positivity-in-the-workplace-with-security-speakers/ /keynote-speaker/ 301!
+https://keynote-speaker.neverleavetheplayground.com/how-motivational-speaker-cost-creates-a-resilient-team/ /keynote-speaker/ 301!
+https://keynote-speaker.neverleavetheplayground.com/encouraging-innovation-with-professional-guest-speakers/ /keynote-speaker/ 301!
+https://keynote-speaker.neverleavetheplayground.com/inspire-positive-attitudes-at-work-with-speakers-bureau/ /keynote-speaker/ 301!
+https://keynote-speaker.neverleavetheplayground.com/the-benefits-of-best-ceo-speakers-in-staff-engagement/ /keynote-speaker/ 301!
+https://keynote-speaker.neverleavetheplayground.com/the-lasting-impact-of-sales-speakers-on-teams/ /keynote-speaker/ 301!
+
+# Keynote speaker pagination, categories, and authors
+https://keynote-speaker.neverleavetheplayground.com/category/* /keynote-speaker/ 301!
+https://keynote-speaker.neverleavetheplayground.com/blog/* /keynote-speaker/ 301!
+https://keynote-speaker.neverleavetheplayground.com/author/* /keynote-speaker/ 301!
+https://keynote-speaker.neverleavetheplayground.com/offerings/* /keynote-speaker/ 301!
+https://keynote-speaker.neverleavetheplayground.com/home-fun/* /keynote-speaker/ 301!
+
+# Search functionality
+https://keynote-speaker.neverleavetheplayground.com/?s=* /keynote-speaker/ 301!
+
+# Catch-all for keynote speaker subdomain
+https://keynote-speaker.neverleavetheplayground.com/* /keynote-speaker/ 301!
+
+# ===== ATHLETIC SUBDOMAIN REDIRECTS =====
+https://athletic.neverleavetheplayground.com/affordable-athletic-apparel /activities/ 301!
+https://athletic.neverleavetheplayground.com/athletic-apparel-reviews /activities/ 301!
+https://athletic.neverleavetheplayground.com/home-gym-equipment /activities/ 301!
+https://athletic.neverleavetheplayground.com/* /activities/ 301!
+
+# ===== VIDEOS SUBDOMAIN REDIRECTS =====
+https://videos.neverleavetheplayground.com/videos/senior-community-programs /public-videos/ 301!
+https://videos.neverleavetheplayground.com/videos/movement-psychology-science /public-videos/ 301!
+https://videos.neverleavetheplayground.com/contact/ /contact/ 301!
+https://videos.neverleavetheplayground.com/author/* /about-me/ 301!
+https://videos.neverleavetheplayground.com/category/* /public-videos/ 301!
+https://videos.neverleavetheplayground.com/blog/ /public-videos/ 301!
+https://videos.neverleavetheplayground.com/feed/ /public-videos/ 301!
+https://videos.neverleavetheplayground.com/comments/feed/ /public-videos/ 301!
+https://videos.neverleavetheplayground.com/favicon.ico /public-videos/ 301!
+https://videos.neverleavetheplayground.com/* /public-videos/ 301!
+
+# ===== PLAYGROUNDS SUBDOMAIN REDIRECTS =====
+https://playgrounds.neverleavetheplayground.com/videos /public-videos/ 301!
+https://playgrounds.neverleavetheplayground.com/checkout* https://shop.neverleavetheplayground.com/ 301!
+https://playgrounds.neverleavetheplayground.com/signup* https://shop.neverleavetheplayground.com/ 301!
+https://playgrounds.neverleavetheplayground.com/forgot-password.html https://shop.neverleavetheplayground.com/ 301!
+https://playgrounds.neverleavetheplayground.com/admin/ /contact/ 301!
+https://playgrounds.neverleavetheplayground.com/* https://shop.neverleavetheplayground.com/ 301!
+
+# ===== SLIDES SUBDOMAIN REDIRECTS =====
+https://slides.neverleavetheplayground.com/cdn-cgi/l/email-protection /contact/ 301!
+https://slides.neverleavetheplayground.com/* /slides/ 301!
+
+# ===== SHOP SUBDOMAIN REDIRECTS =====
+https://shop.neverleavetheplayground.com/favicon.ico https://shop.neverleavetheplayground.com/ 301!
+https://shop.neverleavetheplayground.com/contact /contact/ 301!
+http://shop.neverleavetheplayground.com/* https://shop.neverleavetheplayground.com/:splat 301!
+
+# ===== EN SUBDOMAIN REDIRECTS =====
+# Health and fitness articles
+https://en.neverleavetheplayground.com/a-38-year-old-woman-who-had-gained-weight-from-traveling-lost-50-pounds-in-a-year-she-shared-5-easy-ways-she-did-it /a-health-revolution/ 301!
+https://en.neverleavetheplayground.com/pausing-cell-death-known-as-necrosis-may-be-the-secret-to-defying-the-aging-process-earthcom /a-health-revolution/ 301!
+https://en.neverleavetheplayground.com/play-your-way-to-healthier-longer-life /a-health-revolution/ 301!
+https://en.neverleavetheplayground.com/the-mens-health-30-day-dumbbell-challenge /activities/ 301!
+https://en.neverleavetheplayground.com/5-exercises-holding-you-back-from-your-fitness-goals-including-burpees /activities/ 301!
+https://en.neverleavetheplayground.com/a-56-year-old-personal-trainer-on-how-to-build-muscle-after-40-with-rucking-bodyweight-and-short-workouts /activities/ 301!
+https://en.neverleavetheplayground.com/how-to-do-the-3-step-getup-for-a-stronger-core /activities/ 301!
+https://en.neverleavetheplayground.com/balance-training-brain-health-stephen-jepson-analysis /activities/ 301!
+https://en.neverleavetheplayground.com/utah-woman-loses-100-pounds-in-one-year-heres-how-ksl-news /a-health-revolution/ 301!
+
+# EN subdomain system pages
+https://en.neverleavetheplayground.com/cms-secure-entry /contact/ 301!
+https://en.neverleavetheplayground.com/debug-login /contact/ 301!
+https://en.neverleavetheplayground.com/direct-login /contact/ 301!
+https://en.neverleavetheplayground.com/api/* /contact/ 301!
+https://en.neverleavetheplayground.com/more-more-news /public-videos/ 301!
+
+# EN subdomain view pages
+https://en.neverleavetheplayground.com/view/* /about-me/ 301!
+
+# EN subdomain file directories (403 errors)
+https://en.neverleavetheplayground.com/athletic-product-reviews_files/* /activities/ 301!
+https://en.neverleavetheplayground.com/activities_files/* /activities/ 301!
+https://en.neverleavetheplayground.com/fun-unique-active_files/* /activities/ 301!
+https://en.neverleavetheplayground.com/speaking-events_files/* /keynote-speaker/ 301!
+https://en.neverleavetheplayground.com/in-the-news_files/* /public-videos/ 301!
+https://en.neverleavetheplayground.com/index_files/* / 301!
+https://en.neverleavetheplayground.com/about-me_files/* /about-me/ 301!
+
+# EN subdomain HTML pages
+https://en.neverleavetheplayground.com/classic-videos-page.html /public-videos/ 301!
+https://en.neverleavetheplayground.com/keynote-speaking-events-for-your-organization.html /keynote-speaker/ 301!
+https://en.neverleavetheplayground.com/speaking.html /keynote-speaker/ 301!
+https://en.neverleavetheplayground.com/background.html /about-me/ 301!
+https://en.neverleavetheplayground.com/videos.html /public-videos/ 301!
+https://en.neverleavetheplayground.com/about.html /about-me/ 301!
+
+# EN subdomain other pages
+https://en.neverleavetheplayground.com/homeuuuuu / 301!
+https://en.neverleavetheplayground.com/submit-a-review /testimonials-media/ 301!
+https://en.neverleavetheplayground.com/content /about-me/ 301!
+https://en.neverleavetheplayground.com/home-never-leave-the-play-ground / 301!
+https://en.neverleavetheplayground.com/more-about /about-me/ 301!
+https://en.neverleavetheplayground.com/classic-videos-page /public-videos/ 301!
+https://en.neverleavetheplayground.com/keynote-speaking-events-for-your-organization /keynote-speaker/ 301!
+https://en.neverleavetheplayground.com/contact-us /contact/ 301!
+https://en.neverleavetheplayground.com/news-on-pbs-cbs-news-podcasts-blogs-never-leave-the-playground /testimonials-media/ 301!
+https://en.neverleavetheplayground.com/client-review-our-videos /testimonials-media/ 301!
+https://en.neverleavetheplayground.com/the-growing-trend-of-adult-playgrounds /activities/ 301!
+https://en.neverleavetheplayground.com/introducing-stephen-jepson /about-me/ 301!
+
+# Test pages and enhanced imports
+https://en.neverleavetheplayground.com/enhanced-multi-import-test /contact/ 301!
+https://en.neverleavetheplayground.com/balance-training-cognitive-function-seniors-test /activities/ 301!
+https://en.neverleavetheplayground.com/playground-exercises-balance-brain-function /activities/ 301!
+https://en.neverleavetheplayground.com/again* /contact/ 301!
+
+# Health articles
+https://en.neverleavetheplayground.com/ways-to-protect-your-eye-health-daily /a-health-revolution/ 301!
+https://en.neverleavetheplayground.com/why-brain-injuries-are-more-common-than-you-think /a-health-revolution/ 301!
+https://en.neverleavetheplayground.com/aging-exercise-timing-consistency-can-affect-heart-and-lung-fitness /a-health-revolution/ 301!
+https://en.neverleavetheplayground.com/investing-in-creativity-as-social-infrastructure-blog /a-health-revolution/ 301!
+https://en.neverleavetheplayground.com/common-childhood-virus-linked-to-alzheimers-development-in-old-age-aolcom /a-health-revolution/ 301!
+
+# WWW EN subdomain
+https://www.en.neverleavetheplayground.com/contact /contact/ 301!
+https://www.en.neverleavetheplayground.com/classic-movie-theater /public-videos/ 301!
+https://www.en.neverleavetheplayground.com/more-about /about-me/ 301!
+https://www.en.neverleavetheplayground.com/speaking-events /keynote-speaker/ 301!
+https://www.en.neverleavetheplayground.com/* / 301!
+
+# Catch-all for EN subdomain
+https://en.neverleavetheplayground.com/* /about-me/ 301!
+
+# ===== ADDITIONAL GOOGLE CANONICAL FIXES =====
+# Australian subdomain index.html fix
+https://au.neverleavetheplayground.com/index.html /activities/ 301!
+
+# Shop subdomain parameter fixes
+https://shop.neverleavetheplayground.com/?gi=4bd335316d460360b14e2e19699a682adcc77420 https://shop.neverleavetheplayground.com/ 301!
+https://shop.neverleavetheplayground.com/?gi=e045734f995ad5940df12176f0bc004b7a9bdeb9 https://shop.neverleavetheplayground.com/ 301!
+https://shop.neverleavetheplayground.com/?gi=* https://shop.neverleavetheplayground.com/ 301!
+
+# Shop subdomain hash fragment fix
+https://shop.neverleavetheplayground.com/#! https://shop.neverleavetheplayground.com/ 301!
+https://shop.neverleavetheplayground.com/#* https://shop.neverleavetheplayground.com/ 301!
+
+# ===== AUSTRALIAN SUBDOMAIN REDIRECTS =====
+https://au.neverleavetheplayground.com/speaking-events.html /keynote-speaker/ 301!
+https://au.neverleavetheplayground.com/Amazing-Australian-Playgrounds.html /activities/ 301!
+https://au.neverleavetheplayground.com/Aussie-Active-Fun-Outdoors.html /activities/ 301!
+https://au.neverleavetheplayground.com/home /activities/ 301!
+https://au.neverleavetheplayground.com/* /activities/ 301!
+
+# ===== MAIN DOMAIN FIXES =====
+# WordPress post IDs and parameters
+/?p=5400 / 301!
+/?p=5397 / 301!
+/?p=10129 / 301!
+/?p=* / 301!
+
+# Wordfence and security
+/?wordfence_syncAttackData=* / 301!
+
+# Hash fragments and next patterns
+/speaking-events#!next /keynote-speaker/ 301!
+/#!next / 301!
+
+# Old main domain pages that should redirect
+/classic-movie-theater /public-videos/ 301!
+/product-reviews /testimonials-media/ 301!
+/play-your-way-to-healthier-longer-life /a-health-revolution/ 301!
+/happy-clients-reviews /testimonials-media/ 301!
+/introducing-stephen-jepson /about-me/ 301!
+/submit-a-review /testimonials-media/ 301!
+/happy-clients-reviews-a-health-wellness-speaker /testimonials-media/ 301!
+/more-about /about-me/ 301!
+/homeuuuuu / 301!
+/speaking-events /keynote-speaker/ 301!
+/keynote-speaking-events-for-your-organization /keynote-speaker/ 301!
+/contact/ /contact/ 301!
+
+# News and blog redirects
+/news/ /public-videos/ 301!
+/speaking-events/ /keynote-speaker/ 301!
+
+# CDN and email protection
+/cdn-cgi/l/email-protection /contact/ 301!
+
+# ===== DUPLICATE CANONICAL FIXES =====
+# WordPress post parameters
+/?p=* / 301!
+
+# Search parameters
+/?s=* / 301!
+
+# ===== 403 FORBIDDEN ERROR FIXES =====
+# Athletic product review files - now that page exists
+/athletic-product-reviews_files/* /athletic-product-reviews/ 301!
+
+# Activities files
+/activities_files/* /activities/ 301!
+
+# Speaking events files
+/speaking-events_files/* /keynote-speaker/ 301!
+
+# News and media files
+/in-the-news_files/* /public-videos/ 301!
+
+# Index and system files
+/index_files/* / 301!
+
+# About me files
+/about-me_files/* /about-me/ 301!
+
+# Fun and unique active files
+/fun-unique-active_files/* /activities/ 301!
+
+# ===== ALTERNATE PAGE CANONICAL FIXES =====
+# Health and fitness content from EN subdomain
+/a-38-year-old-woman-who-had-gained-weight-from-traveling-lost-50-pounds-in-a-year-she-shared-5-easy-ways-she-did-it /a-health-revolution/ 301!
+/pausing-cell-death-known-as-necrosis-may-be-the-secret-to-defying-the-aging-process-earthcom /a-health-revolution/ 301!
+/the-mens-health-30-day-dumbbell-challenge /activities/ 301!
+/5-exercises-holding-you-back-from-your-fitness-goals-including-burpees /activities/ 301!
+/a-56-year-old-personal-trainer-on-how-to-build-muscle-after-40-with-rucking-bodyweight-and-short-workouts /activities/ 301!
+/how-to-do-the-3-step-getup-for-a-stronger-core /activities/ 301!
+/balance-training-brain-health-stephen-jepson-analysis /activities/ 301!
+/utah-woman-loses-100-pounds-in-one-year-heres-how-ksl-news /a-health-revolution/ 301!
+
+# ===== FINAL CATCH-ALL =====
+# Any remaining subdomain issues
+*.neverleavetheplayground.com/* https://neverleavetheplayground.com/ 301!
+
+# ===== EVENTS REDIRECT =====
+# Redirect old events page to keynote speaker
+/events /keynote-speaker/ 301!
+/events/ /keynote-speaker/ 301!
+
+# ===== SPA FALLBACK HANDLING =====
+# Ensure static pages are served correctly
+/activities/ /activities/index.html 200
+/activities /activities/ 301!
+/about-me/ /about-me/index.html 200
+/contact/ /contact/index.html 200
+/contact /contact/ 301!
+/keynote-speaker/ /keynote-speaker/index.html 200
+/public-videos/ /public-videos/index.html 200
+/public-videos /public-videos/ 301!
+/slides/ /slides/index.html 200
+/testimonials-media/ /testimonials-media/index.html 200
+/a-health-revolution/ /a-health-revolution/index.html 200
+
+# SPA fallback for React routes
+/* /index.html 200
