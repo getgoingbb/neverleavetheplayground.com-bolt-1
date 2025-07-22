@@ -239,3 +239,117 @@ export const breadcrumbSchema = (items: Array<{name: string, url: string}>) => (
     "item": item.url
   }))
 });
+
+// News & Interviews Google Slides structured data
+export const newsInterviewsSchema = {
+  "@context": "https://schema.org",
+  "@type": "PresentationDigitalDocument",
+  "name": "Stephen Jepson News & Interviews - Media Coverage Collection",
+  "description": "Comprehensive collection of Stephen Jepson's media appearances, television interviews, radio shows, and press coverage featuring his revolutionary health and wellness philosophy. Includes PBS features, NPR interviews, and international speaking events.",
+  "url": "https://docs.google.com/presentation/d/1Z6nVAYPKb5UmhSNWpm8MWYx5PNxvdFT3q0zYtlC5StQ/edit?usp=sharing",
+  "author": {
+    "@type": "Person",
+    "name": "Stephen Jepson",
+    "url": "https://neverleavetheplayground.com/about-me/",
+    "sameAs": [
+      "https://en.wikipedia.org/wiki/Stephen_Jepson",
+      "https://www.youtube.com/user/StephenJepson/videos",
+      "https://www.facebook.com/stephen.jepson.56/",
+      "https://x.com/stephenjepson56?lang=bg"
+    ],
+    "jobTitle": "Health and Wellness Expert",
+    "knowsAbout": [
+      "Health and Wellness",
+      "Media Relations",
+      "Public Speaking",
+      "Television Interviews",
+      "Radio Broadcasting",
+      "Press Relations"
+    ]
+  },
+  "publisher": {
+    "@type": "Organization",
+    "name": "Never Leave The Playground",
+    "url": "https://neverleavetheplayground.com/",
+    "logo": {
+      "@type": "ImageObject",
+      "url": "https://shop.neverleavetheplayground.com/lovable-uploads/6899d407-7792-43de-a96f-7a440c293bf1.png"
+    }
+  },
+  "about": [
+    "Media Coverage",
+    "Television Interviews",
+    "Radio Appearances", 
+    "Press Coverage",
+    "Health and Wellness Media",
+    "PBS Television Features",
+    "NPR Radio Interviews",
+    "Speaking Event Coverage",
+    "Fitness Industry Press",
+    "Healthcare Media Relations"
+  ],
+  "audience": {
+    "@type": "Audience",
+    "audienceType": [
+      "Media Professionals",
+      "Journalists",
+      "Health Reporters",
+      "Event Organizers",
+      "Speaking Bureaus",
+      "Corporate Communications"
+    ]
+  },
+  "educationalLevel": "Professional",
+  "learningResourceType": "Media Portfolio",
+  "inLanguage": "en-US",
+  "isAccessibleForFree": true,
+  "datePublished": "2025-01-13",
+  "dateModified": "2025-01-13",
+  "keywords": "Stephen Jepson media coverage, PBS interviews, NPR radio, health wellness press, television appearances, speaking events, fitness industry media, healthcare interviews, Never Leave The Playground press",
+  "mainEntity": [
+    {
+      "@type": "TVSeries",
+      "name": "Growing Bolder PBS",
+      "description": "PBS television series featuring Stephen Jepson's health philosophy"
+    },
+    {
+      "@type": "RadioSeries", 
+      "name": "NPR Health Interviews",
+      "description": "National Public Radio interviews covering Stephen's wellness approach"
+    },
+    {
+      "@type": "Event",
+      "name": "International Speaking Events",
+      "description": "Global conferences and summits featuring Stephen Jepson"
+    }
+  ],
+  "citation": [
+    {
+      "@type": "CreativeWork",
+      "name": "Growing Bolder Television Interview",
+      "url": "https://www.youtube.com/watch?v=ycJwrwrYgGM"
+    },
+    {
+      "@type": "CreativeWork", 
+      "name": "KTIV Channel 4 News Feature",
+      "url": "https://www.youtube.com/watch?v=qh0PlR27qJ0"
+    }
+  ],
+  "hasPart": [
+    {
+      "@type": "MediaObject",
+      "name": "Television Interview Collection",
+      "description": "Compilation of Stephen's television appearances and interviews"
+    },
+    {
+      "@type": "MediaObject",
+      "name": "Radio Interview Archive", 
+      "description": "Collection of radio interviews and podcast appearances"
+    },
+    {
+      "@type": "MediaObject",
+      "name": "Press Coverage Portfolio",
+      "description": "Print and digital media coverage of Stephen's work"
+    }
+  ]
+};
