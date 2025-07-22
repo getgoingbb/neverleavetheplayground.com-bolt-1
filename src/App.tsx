@@ -8,8 +8,8 @@ import { AboutMe } from './pages/AboutMe';
 import { TestimonialsMedia } from './pages/TestimonialsMedia';
 import { Slides } from './pages/Slides';
 import { HealthRevolution } from './pages/HealthRevolution';
+import { Contact } from './pages/Contact';
 import { organizationSchema, personSchema, websiteSchema, videoSchema } from './data/structuredData';
-import PlaygroundChatbot from './components/PlaygroundChatbot';
 
 function HomePage() {
   // Enhanced structured data including presentation
@@ -270,16 +270,16 @@ function HomePage() {
                 Visit Video Shop
               </a>
               <a 
-                href="https://docs.google.com/presentation/d/e/2PACX-1vRCDChH9s5sGRuOeKpYrF8fLcXpJOr_BJTeH3fJQ5_lAAlLgWF3jkb_jL1jwNpVlGEv7r5RyDfK0UiS/pub?start=false&loop=false&delayms=3000" 
+                href="https://docs.google.com/presentation/d/1Z6nVAYPKb5UmhSNWpm8MWYx5PNxvdFT3q0zYtlC5StQ/edit?usp=sharing" 
                 target="_blank"
                 rel="noopener noreferrer"
                 className="inline-flex items-center px-6 py-3 border-2 border-green-600 text-green-600 font-semibold rounded-lg hover:bg-green-50 transition-colors"
-                aria-label="View Stephen Jepson's comprehensive Google Slides presentation"
+                aria-label="View Stephen Jepson's News & Interviews Google Slides presentation"
                 itemProp="url"
                 itemScope
                 itemType="https://schema.org/PresentationDigitalDocument"
               >
-                📊 View Google Slides Presentation
+                📰 News & Interviews (Google Slides)
               </a>
             </div>
           </div>
@@ -385,6 +385,7 @@ function App() {
         <Route path="/testimonials-media" element={<TestimonialsMedia />} />
         <Route path="/slides" element={<Slides />} />
         <Route path="/a-health-revolution" element={<HealthRevolution />} />
+        <Route path="/contact" element={<Contact />} />
       </Routes>
     </Router>
   );
