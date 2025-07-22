@@ -1,15 +1,36 @@
 import React from 'react';
 import { SEOHead } from '../components/SEOHead';
 import { Navigation } from '../components/Navigation';
+import { newsInterviewsSchema } from '../data/structuredData';
 
 export const AboutMe: React.FC = () => {
+  const combinedStructuredData = [
+    {
+      "@context": "https://schema.org",
+      "@type": "Person",
+      "name": "Stephen Jepson",
+      "jobTitle": "Health and Wellness Expert",
+      "description": "Expert in health, wellness, and the transformative power of play for longevity",
+      "url": "https://neverleavetheplayground.com/",
+      "image": "https://images.pexels.com/photos/6111616/pexels-photo-6111616.jpeg?auto=compress&cs=tinysrgb&w=600&h=600&fit=crop",
+      "sameAs": [
+        "https://www.facebook.com/stephen.jepson.56/",
+        "https://x.com/stephenjepson56?lang=bg",
+        "https://www.youtube.com/user/StephenJepson/videos",
+        "https://en.wikipedia.org/wiki/Stephen_Jepson"
+      ]
+    },
+    newsInterviewsSchema
+  ];
+
   return (
     <div className="min-h-screen bg-white">
       <SEOHead
-        title="About Stephen Jepson - Never Leave The Playground"
-        description="Learn about Stephen Jepson, the founder of Never Leave The Playground, and his inspiring journey in promoting health, longevity, and cognitive vitality through playful movement."
-        keywords="Stephen Jepson, Never Leave The Playground, founder, biography, health expert, longevity, brain health"
+        title="About Stephen Jepson - Health Expert & Media Featured Speaker | Never Leave The Playground"
+        description="Learn about Stephen Jepson, featured on PBS and NPR with 4M+ video views. Discover his inspiring journey promoting health, longevity, and cognitive vitality through playful movement. Media coverage, interviews, and speaking highlights."
+        keywords="Stephen Jepson, Never Leave The Playground, founder, biography, health expert, longevity, brain health, PBS interviews, NPR radio, media coverage, television appearances, speaking events"
         canonicalUrl="https://neverleavetheplayground.com/about-me/"
+        structuredData={combinedStructuredData}
       />
       <Navigation />
 
