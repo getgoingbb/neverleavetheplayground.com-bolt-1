@@ -23,7 +23,7 @@ export const Navigation: React.FC = () => {
         <div className="flex justify-between items-center py-4">
           <div className="flex items-center space-x-3">
             <img 
-              src="https://shop.neverleavetheplayground.com/lovable-uploads/6899d407-7792-43de-a96f-7a440c293bf1.png" 
+              src="https://slides.neverleavetheplayground.com/assets/img/icon-222.png" 
               alt="Never Leave The Playground Logo" 
               className="h-12 w-auto"
               width="120"
