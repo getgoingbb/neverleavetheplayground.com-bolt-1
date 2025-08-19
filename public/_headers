@@ -1,5 +1,4 @@
 /*
-  Content-Security-Policy: default-src 'self' https: data: blob:; script-src 'self'; style-src 'self' 'unsafe-inline' https:; img-src 'self' https://slides.neverleavetheplayground.com data:; font-src 'self' https: data:; frame-src https: data:; connect-src 'self' https:; base-uri 'self'; form-action 'self' https://payhip.com; object-src 'none'
-  Referrer-Policy: strict-origin-when-cross-origin
+  Content-Security-Policy: default-src 'self' https: data: blob:; script-src 'self'; style-src 'self' 'unsafe-inline' https:; img-src 'self' https://slides.neverleavetheplayground.com data:; font-src 'self' https: data:; frame-src https: data:; connect-src 'self' https:; base-uri 'self'; form-action 'self' https://payhip.com; object-src 'none' Referrer-Policy: strict-origin-when-cross-origin
   X-Content-Type-Options: nosniff
   Permissions-Policy: camera=(), microphone=(), geolocation=()
