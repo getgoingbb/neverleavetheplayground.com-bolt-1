@@ -1,0 +1,6 @@
+/*
+  Content-Security-Policy: default-src 'self' https: data: blob:;
+  Content-Security-Policy: script-src 'self';
+  Content-Security-Policy: img-src 'self' https://slides.neverleavetheplayground.com data:;
+  Content-Security-Policy: style-src 'self' 'unsafe-inline' https:;
+  Content-Security-Policy: frame-src https://stephenjepson-chatbot.netlify.app;
