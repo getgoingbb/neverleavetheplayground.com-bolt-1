@@ -96,10 +96,10 @@
 
     // Payhip CTAs
     var ctas = make("div", null, { display: "grid", gridTemplateColumns: "1fr 1fr", gap: "8px", marginBottom: "10px" });
-    var v1Link = make("a", { href: VIDEO1_LINK, target: "_blank", rel: "noopener noreferrer", innerText: "Get Video 1" }, {
+    var v1Link = make("a", { href: VIDEO1_LINK, target: "_blank", rel: "noopener noreferrer", innerText: "Get Play Video " }, {
       textAlign: "center", padding: "10px 12px", borderRadius: "12px", background: "#2a8bdb", color: "#fff", textDecoration: "none", fontWeight: "600"
     });
-    var v2Link = make("a", { href: VIDEO2_LINK, target: "_blank", rel: "noopener noreferrer", innerText: "Get Video 2" }, {
+    var v2Link = make("a", { href: VIDEO2_LINK, target: "_blank", rel: "noopener noreferrer", innerText: "Get 5 In 1 Video " }, {
       textAlign: "center", padding: "10px 12px", borderRadius: "12px", background: "#16a34a", color: "#fff", textDecoration: "none", fontWeight: "600"
     });
     ctas.appendChild(v1Link); ctas.appendChild(v2Link); panel.appendChild(ctas);
